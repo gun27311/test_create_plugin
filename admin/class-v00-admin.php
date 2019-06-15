@@ -111,8 +111,9 @@ class V00_Admin {
 		 *
 		 */
 		
-		 $name_app ="test"; 
-		add_options_page($name_app, 'WP Cleanup', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page')
+		 $name_app ="test api SCB"; 
+		 $menu_title = "The menu title";
+		add_options_page($name_app, $menu_title, 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page')
 		);
 	}
 	
